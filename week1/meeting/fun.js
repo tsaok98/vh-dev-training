@@ -9,12 +9,12 @@ let c = false;
 
 // let's talk about why var sucks
 
-// // we can (and should, whenever possible) enforce constness
+// we can (and should, whenever possible) enforce constness
 // const d = 3;
 // try {
-// 	d = 7;
+//     d = 7;
 // } catch (err) {
-// 	console.log(err);
+//     console.log(err);
 // }
 
 // // all your normal language features are here
