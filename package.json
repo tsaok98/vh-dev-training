@@ -8,7 +8,8 @@
 		"week1": "if [ -f week1/meeting/fun.js ]; then node week1/meeting/fun.js; else ts-node week1/meeting/fun.ts; fi",
 		"hw": "tsc week1/hw/hw.ts",
 		"hw-dev": "ts-node week1/hw/hw.ts",
-		"lint": "eslint -c .eslintrc.js --ext .js,.ts week1/"
+		"lint": "eslint -c .eslintrc.js --ext .ts week1/",
+		"lint:fix": "eslint -c .eslintrc.js --ext .ts week1/ --fix"
 	},
 	"author": "VandyHacks",
 	"contributors": [
@@ -17,8 +18,10 @@
 	],
 	"license": "SEE LICENSE IN LICENSE.md",
 	"dependencies": {
+		"@types/node-fetch": "^2.1.7",
 		"koa": "^2.7.0",
 		"koa-router": "^7.4.0",
+		"node-fetch": "^2.3.0",
 		"parcel-bundler": "^1.12.3",
 		"typescript": "^3.3.4000"
 	},
