@@ -1,3 +1,4 @@
+/* eslint-disable */ // just to prevent it from annoying us forever
 import fetch from 'node-fetch';
 
 // to call this function, you'll need to do two things
